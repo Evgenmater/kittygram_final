@@ -31,8 +31,6 @@ services:
     volumes:
       - static:/static
       - media:/app/media
-    depends_on:
-      - backend
     ports:
       - 9000:80
 
